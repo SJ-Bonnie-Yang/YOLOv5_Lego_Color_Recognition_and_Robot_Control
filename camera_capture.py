@@ -1,5 +1,5 @@
 """
-Image Capture Script
+Image Capture
 
 This script uses OpenCV to capture images from a camera. 
 Press 's' to save a snapshot as `1000.jpg`, which will then be displayed.
