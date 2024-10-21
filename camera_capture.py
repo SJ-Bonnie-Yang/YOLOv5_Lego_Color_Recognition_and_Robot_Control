@@ -1,8 +1,7 @@
 """
-Image Capture
+Opens the camera to capture images for detection by a trained model.
 
-This script uses OpenCV to capture images from a camera. 
-Press 's' to save a snapshot as `1000.jpg`, which will then be displayed.
+Press 's' to save a snapshot as 1000.jpg (this is an example file name), which will then be displayed.
 
 Usage:
 1. Ensure a camera is connected.
