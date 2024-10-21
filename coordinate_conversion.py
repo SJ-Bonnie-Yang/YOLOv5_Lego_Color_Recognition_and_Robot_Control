@@ -1,5 +1,5 @@
 """ 
-This code detects LEGO bricks, normalizes their coordinates, and prepares them for robotic arm manipulation.
+Detects and normalizes LEGO brick coordinates for robotic arm manipulation.
 
 1. Reads the detected label number, name, and coordinates (YOLOv5 scale) of LEGO bricks 
    from the detection results file.
