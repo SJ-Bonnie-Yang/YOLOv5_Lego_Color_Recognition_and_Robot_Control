@@ -8,6 +8,6 @@ Watch the demonstration of the **YOLOv5 Lego Color Recognition and Robot Control
 After completing the project, I reorganized the code, resulting in changes to the filenames. 
 Original File Name              =>              New File Name
 ---------------------------------------------------------------------------------------------
-Take_Read.py                    =>             camera_capture.py
-coord_trans.py                  =>          coordinate_conversion.py
-real_to_motor_write_txt_test.py =>          motor_movement_control.py
+1.Take_Read.py                    =>             camera_capture.py
+2.coord_trans.py                  =>          coordinate_conversion.py
+3.real_to_motor_write_txt_test.py =>          motor_movement_control.py
