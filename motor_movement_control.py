@@ -1,7 +1,21 @@
-""" Complete movement steps: 
+"""
+This code executes a complete cycle for a robotic arm, handling the initialization, catching, 
+and releasing of an object while visualizing the arm's configuration.
+
+1. **Motor Control**: Manages six motors with specified positions for catching and releasing objects, 
+     with gradual movement implementation for smooth operation.
+2. **Inverse Kinematics**: Calculates required angles based on target coordinates for accurate positioning.
+3. **PWM Conversion**: Converts calculated angles to PWM signals for motor movement.
+4. **Safety Initialization**: Moves motors to a safe starting position before operations.
+5. **Gripper Action**: Controls the gripper for catching and releasing tasks.
+6. **Visualization**: Uses Matplotlib to display the robotic arm's link positions and pose during operation.
+7. **Logging**: Writes PWM values and operation orders to a file for tracking movements.
+
+   Complete movement steps: 
         initialize_safety_positionssafety_positions 
     => move_to_intermediate_position => Move to Target Point => Catch 
     => move_to_intermediate_position => Move to Release Point => Release
+    
 """
 import sys
 import os
