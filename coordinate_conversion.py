@@ -1,4 +1,4 @@
-""" Project Report - Page 31
+""" 
 1. Reads the detected label number, name, and coordinates (YOLOv5 scale) of LEGO bricks 
    from the detection results file.
 
