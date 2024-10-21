@@ -1,3 +1,18 @@
+"""
+Image Capture Script
+
+This script uses OpenCV to capture images from a camera. 
+Press 's' to save a snapshot as `1000.jpg`, which will then be displayed.
+
+Usage:
+1. Ensure a camera is connected.
+2. Install OpenCV: `pip install opencv-python`
+3. Run the script: `python your_script_name.py`
+4. Press 's' to capture an image.
+
+Note: Check the camera index if the feed is not accessible.
+"""
+
 import os
 import cv2
 import time
