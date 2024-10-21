@@ -1,15 +1,15 @@
+"""
+Inverse Kinematics for Robotic Arm with Visualization
+
+Calculates the angles for a planar robotic arm to reach a target position (X, Y) and the Z axis. 
+Visualizes the arm's configuration using matplotlib. 
+This file is imported into motor_movement_control.py.
+"""
 
 from cmath import pi
 import math
 import matplotlib.pyplot as plt
 
-"""
-    Calculate the key angles for planar kinematics.
-    
-    :param X: X coordinate of the target position
-    :param Y: Y coordinate of the target position
-    :return: Angles f1, f2, and f3
-"""
 def inverse_kinematics(X, Y):
     L1 = 22               #28
     L2 = 20               #22
