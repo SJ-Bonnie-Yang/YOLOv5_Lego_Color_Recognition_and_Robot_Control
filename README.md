@@ -1,9 +1,4 @@
-## Video Demonstration
-
-Watch the demonstration of the **YOLOv5 Lego Color Recognition and Robot Control** project [here](https://youtu.be/0idIP3sX8TI).
-
-
-## Video Note
+#Note
 
 After completing the project, I reorganized the code, resulting in changes to the filenames. 
 Original File Name                =>              New File Name
