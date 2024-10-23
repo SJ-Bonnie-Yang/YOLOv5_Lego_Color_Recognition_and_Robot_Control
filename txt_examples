@@ -1,5 +1,0 @@
-label_coordinate.txt: This file contains output data generated from the YOLOv5 detection process, 
-detailing the recognized objects and their corresponding coordinates.
-
-pwm.txt: This file captures the output from the motor_control_movement.py script, 
-which includes the PWM values necessary for controlling the motors of the robotic arm.
